@@ -1,0 +1,30 @@
+{
+  "name": "wetalk-server",
+  "version": "1.0.0",
+  "description": "基于node+express+mongoose构建的SPA社交网站服务端",
+  "main": "index.js",
+  "author": "zener(1054609489@qq.com)",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zenfeder/wetalk-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zenfeder/wetalk-server/issues"
+  },
+  "homepage": "https://github.com/Zenfeder/wetalk-server#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "colors": "^1.1.2",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.14.0",
+    "jquery-file-upload-middleware": "^0.1.8",
+    "mongoose": "^4.6.8",
+    "nodemailer": "^2.6.4",
+    "nodemailer-smtp-transport": "^2.7.2",
+    "socket.io": "^1.4.8"
+  }
+}
